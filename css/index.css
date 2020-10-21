@@ -1,0 +1,562 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+@font-face {
+    font-family: "Post No Bills Jaffna";
+    src: url(../fonts/PostNoBillsJaffna700.ttf) format("truetype");
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+}
+input {
+    text-decoration: none;
+    outline: none;
+    border: none;
+}
+.screen {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+}
+header {
+    width: 60%;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #969696;
+    margin: auto;
+}
+header img {
+    display: block;
+    float: left;
+    margin-right: 16px;
+}
+header p {
+    width: 355px;
+    height: 16px;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.header-right p {
+    width: 107px;
+    height: 16px;
+    float: left;
+
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: right;
+}
+nav {
+    width: 100%;
+    height: 80px;
+    background: #0F0F0F;
+}
+.nav-content {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+.nav-left p {
+    font-family: "Post No Bills Jaffna";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+}
+.nav-right {
+    text-transform: uppercase;
+    color: #969696;
+
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.nav-right p {
+    width: 136px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-right p:hover {
+    color: white;
+    background: #1F1F1F;
+}
+.nav-right div {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+}
+.nav-right div:hover {
+    background: #1F1F1F;
+}
+.photo-block {
+    width: 100%;
+    height: 810px;
+    background: linear-gradient(0deg, rgba(15, 15, 15, 0.5), rgba(15, 15, 15, 0.5)), url(../img/back.jpg) 90% no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+.photo-block-content {
+    width: 320px;
+    height: 320px;
+    border: 4px solid #FFFFFF;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.photo-block-content .company p {
+    width: 185px;
+    height: 86px;
+    font-family: "Post No Bills Jaffna";
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 96px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.photo-block-content .line {
+    width: 179px;
+    height: 0px;
+    border: 2px solid #FFFFFF;
+}
+.photo-block-content .city {
+    text-transform: uppercase;
+    font-family: "PT Sans";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.photo-block-text {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 80px;
+}
+.presentation {
+    width: 100%;
+    height: 730px;
+    background-color: rgb(99, 34, 68);
+    color: white;
+}
+.presentation .watches {
+    width: 53%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    float:left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.presentation .watches .season {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.presentation .watches .line {
+    width: 120px;
+    height: 0px;
+    border: 1px solid #FFFFFF;
+    margin: 50px 0;
+}
+.presentation .watches .items {
+    width: 100%;
+}
+.presentation .watches .item {
+    width: 28%;
+    height: 100%;
+    float: left;
+    margin-left: 4%;
+}
+.presentation .watches .item .photo {
+    height: 325px;
+    background: #191B1C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.presentation .watches .item .item-name {
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 25px;
+}
+.presentation .watches .item .item-price {
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 10px;
+}
+.presentation .new-collection {
+    width: 47%;
+    height: 100%;
+    float:left;
+    background: url(../img/new-collection.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.presentation .new-collection .header {
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 484px;
+}
+.presentation .new-collection .line {
+    width: 120px;
+    height: 0px;
+    border: 1px solid #FFFFFF;
+    margin-top: 30px;
+}
+.presentation .new-collection .catalog {
+    font-family: 'Playfair Display', serif;
+    width: 82px;
+    height: 23px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 12px 30px;
+    border: 1px solid white;
+    margin-top: 42px;
+}
+.collection {
+    width: 100%;
+    height: 600px;
+    background: #000;
+    color: white;
+}
+.collection .photo {
+    width: 47%;
+    height: 100%;
+    background: url(../img/collection-photo.png) 90%;
+    background-size: cover;
+    float: left;
+}
+.collection .collection-right {
+    width: 53%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    float: left;
+}
+.collection .collection-right .header {
+    font-family: 'Playfair Display', serif;
+    width: 376px;
+    height: 39px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.collection .collection-right .line {
+    width: 120px;
+    height: 0px;
+    border: 1px solid #FFFFFF;
+    margin-top: 40px;
+}
+.collection .collection-right .text {
+    width: 471px;
+    height: 173px;
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    margin-top: 40px;
+}
+.collection .collection-right .watch-collection {
+    width: 265px;
+    height: 23px;
+
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    padding: 12px 22px;
+    border: 1px solid white;
+    margin-top: 73px;
+}
+.new-arrivals {
+    width: 100%;
+    height: 1289px;
+    background: #000;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.new-arrivals .header {
+    width: 440px;
+    height: 48px;
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.new-arrivals .line {
+    width: 120px;
+    height: 0px;
+    border: 1px solid #FFFFFF;
+    margin-top: 40px;
+}
+.new-arrivals .items {
+    width: 70%;
+}
+.new-arrivals .items .item {
+    width: 24%;
+    margin-left: 1%;
+    float: left;
+    margin-top: 40px;
+}
+.new-arrivals .items .photo{
+    height: 325px;
+    background: #191B1C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.new-arrivals .items .item-name {
+    width: 140px;
+    height: 24px;
+
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    margin-top: 25px;
+}
+.new-arrivals .items .item-price {
+    width: 92px;
+    height: 21px;
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    margin-top: 10px;
+}
+.brands {
+    float: left;
+    width: 100%;
+    height: 362px;
+    background: #0F0F0F;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.brands-container {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.brands-img {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.brands .header {
+    width: 289px;
+    height: 48px;
+    left: 816px;
+    top: 3613px;
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.brands .line {
+    width: 120px;
+    height: 0px;
+    border: 1px solid #FFFFFF;
+    margin: 40px 0;
+}
+.bottom {
+    width: 100%;
+    height: 400px;
+    background: url(../img/bottom.png);
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.bottom .bottom-content {
+    width: 70%;
+    height: 100%;
+}
+.bottom .bottom-content .header {
+    width: 151px;
+    height: 32px;
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    text-transform: uppercase;
+    margin-top: 80px;
+}
+.bottom .bottom-content .text {
+    width: 350px;
+    left: 405px;
+    top: 4061px;
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    margin-top: 40px;
+}
+.bottom .bottom-content .items .item {
+    width: 30%;
+    float: left;
+    margin-left: 2.5%;
+}
+.bottom .bottom-content .items .item .options .el {
+    float: left;
+    background: #0F0F0F;
+    padding: 10px 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.bottom .bottom-content .items .item input {
+    width: 200px;
+    height: 42px;
+    background: rgba(255, 255, 255, 0.4);
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    color: white;
+}
+.bottom .bottom-content .items .item input::placeholder {
+    color: rgb(236, 236, 236);
+}
+.bottom .bottom-content .items .item .subscribe {
+    width: 100px;
+    height: 21px;
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0.05em;
+    background: #0F0F0F;
+    padding: 10px 20px;
+}
+.mail-block {
+    display: flex;
+    justify-content: left;
+}
+footer {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    background: #0F0F0F;
+}
+footer .content {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer .content .rights {
+    width: 155px;
+    height: 16px;
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+}
+footer .content .made {
+    width: 155px;
+    height: 16px;
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: right;
+    text-decoration-line: underline;
+}
