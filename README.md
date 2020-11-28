@@ -1,2 +1,2 @@
-# <a href="https://afoninis.github.io/Porten-Non-Adaptive/">Посмотреть</a>
+# <a href="https://afoninis.github.io/Porten/">Посмотреть</a>
 Porten Landing (non-adaptive)
